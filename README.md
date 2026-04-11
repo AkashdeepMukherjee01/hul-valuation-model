@@ -104,16 +104,9 @@ This project demonstrates the following technical skills:
 ---
 
 ## Investment Insight
-
-Based on the DCF analysis, the model estimates the intrinsic value of HUL by forecasting its long-term cash generation ability.
-
-The valuation framework helps assess whether the company is potentially:
-
-- Undervalued
-- Fairly valued
-- Overvalued
-
-depending on market price assumptions.
+The model estimates an intrinsic value of ₹1,097/share using a DCF framework (WACC: 10.3%, terminal growth rate: 5%), implying 47% downside to the market price of ₹2,084 at the time of analysis — arriving at a Sell thesis underpinned by HUL's premium valuation against decelerating organic volume growth.
+A WACC × terminal growth sensitivity matrix (WACC range: 8.5%–10.5%, terminal growth range: 4%–7%) produces a valuation range of ₹1,323–₹3,629/share, bounding the bull and bear scenario spread.
+Even under the most optimistic assumptions modelled, the stock offers limited margin of safety at current market prices.
 
 ---
 
