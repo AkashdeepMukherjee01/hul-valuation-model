@@ -1,124 +1,42 @@
-# hul-valuation-model
-Financial modeling project: 3-statement financial model and DCF valuation of Hindustan Unilever Limited (HUL).
+# Hindustan Unilever (HUL) - 3-Statement Financial Model & DCF Valuation
 
-# HUL Valuation Model (3-Statement + DCF)
+## 📌 Project Overview
+This repository contains a comprehensive **3-Statement Financial Model and Discounted Cash Flow (DCF) Valuation** for **Hindustan Unilever Limited (NSE: HINDUNILVR)**. The model uses historical financial data to forecast future performance, ultimately deriving the intrinsic value of the company's shares.
 
-## Project Overview
+* **Date Prepared:** April 26, 2026
+* **Last Updated:** April 27, 2026
+* **Prepared By:** Akashdeep Mukherjee
 
-This project is a financial valuation model of Hindustan Unilever Limited (HUL).  
-The model integrates a full 3-statement financial model with a Discounted Cash Flow (DCF) valuation to estimate the intrinsic value of the company.
+## 📊 File Structure / Table of Contents
+The financial model (originally an Excel workbook, provided here in CSV format for reference) is divided into the following key sections:
 
-The objective of the project is to demonstrate financial modeling, valuation analysis, and investment research skills relevant to roles in investment banking, equity research, and asset management.
+1.  **Cover Sheet (`Cover.csv`)**: Contains the model's table of contents, executive valuation summary, and color-coding legend used across the model.
+2.  **3-Statement Model (`3 Statement Model.csv`)**: Features the historical data (2021-2025) and forecasts (2026-2030) for the Income Statement, Balance Sheet, and Cash Flow Statement. Also includes detailed revenue breakdowns by segment (Homecare, Beauty & Personal Care, etc.) and core assumptions.
+3.  **DCF Valuation (`DCF.csv`)**: Contains the calculation of Net Operating Profit After Tax (NOPAT), Free Cash Flow to Firm (FCFF), WACC, Terminal Value, Enterprise Value, and the final Implied Equity Value per share. Includes a Sensitivity Analysis table.
 
----
+## 📈 Valuation Summary & Key Findings
+Based on the DCF analysis performed in this model:
 
-## Model Structure
+* **Current Market Price (CMP):** ₹ 2,364.00
+* **Implied Share Price (DCF):** ₹ 938.32
+* **Implied Upside / (Downside):** ~ (60.00%)
 
-The model consists of the following components:
+*Disclaimer: The implied downside suggests that, based on the conservative growth and margin assumptions modeled, the stock appears currently overvalued relative to its intrinsic DCF value.*
 
-1. Assumptions
-2. Income Statement Forecast
-3. Balance Sheet Forecast
-4. Cash Flow Statement
-5. Free Cash Flow Calculation
-6. Discounted Cash Flow Valuation
+## 🎨 Model Color Coding Legend
+If you are viewing or editing the original Excel spreadsheet, please adhere to the following standard financial modeling color codes:
+* **🔵 Blue Text:** Hardcoded Inputs & Historical Actuals
+* **⚫ Black Text:** Calculations and formulas within the same sheet
+* **🟢 Green Text:** Links to other sheets within the workbook
 
-All statements are dynamically linked to maintain accounting consistency.
+## ⚙️ Key Assumptions & Drivers
+* **Revenue Segments:** Forecasts are driven by segment-wise growth assumptions for Homecare, Beauty & Personal Care, and Foods & Refreshment.
+* **Operating Margins:** EBIT margins and tax rates have been projected based on historical trends and management guidance.
+* **Capital Expenditures & Depreciation:** Tied to future revenue scaling and historical asset turnover metrics.
 
----
+## 🛠️ Usage
+1.  **Reviewing the Data:** You can view the `.csv` files directly on GitHub to analyze the raw historical data, assumptions, and formulas.
+2.  **Modifying Assumptions:** To run your own scenarios, download the files, import them into Excel or Google Sheets, and modify the blue-colored hardcoded inputs (e.g., Terminal Growth Rate, WACC, Revenue Growth rates). The sensitivity table in the DCF sheet will automatically adjust the implied share price.
 
-## Model Sheets
-
-### Cover
-Provides a high-level overview of the model.
-
-### Assumptions
-Contains key drivers used in the forecast:
-
-- Revenue growth
-- Cost structure assumptions
-- Tax rate
-- Capital expenditure
-- Working capital assumptions
-- Discount rate and terminal growth
-
-### Income Statement
-
-Projects future performance using forecasted:
-
-- Revenue
-- Cost of Goods Sold
-- Operating Expenses
-- EBIT
-- Net Income
-
-### Balance Sheet
-
-Projects key balance sheet items including:
-
-- Working capital
-- Debt
-- Equity
-- Retained earnings
-
-The balance sheet is linked to income statement and cash flow projections.
-
-### Cash Flow Statement
-
-Derived using the indirect method:
-
-- Net income
-- Non-cash adjustments
-- Working capital changes
-- Capital expenditure
-
-This produces **Free Cash Flow to Firm (FCFF)** used in the DCF valuation.
-
-### DCF Valuation
-
-The valuation section estimates intrinsic value using:
-
-- Forecasted Free Cash Flow
-- Weighted Average Cost of Capital (WACC)
-- Terminal Value (Gordon Growth Model)
-
-Outputs include:
-
-- Enterprise Value
-- Equity Value
-- Implied valuation
-
----
-
-## Key Skills Demonstrated
-
-This project demonstrates the following technical skills:
-
-- Financial statement modeling
-- Forecasting financial performance
-- Accounting linkages between statements
-- Discounted cash flow valuation
-- Sensitivity analysis
-- Excel modeling structure and formatting
-
----
-
-## Investment Insight
-The model estimates an intrinsic value of ₹1,097/share using a DCF framework (WACC: 10.3%, terminal growth rate: 5%), implying 47% downside to the market price of ₹2,084 at the time of analysis — arriving at a Sell thesis underpinned by HUL's premium valuation against decelerating organic volume growth.
-A WACC × terminal growth sensitivity matrix (WACC range: 8.5%–10.5%, terminal growth range: 4%–7%) produces a valuation range of ₹1,323–₹3,629/share, bounding the bull and bear scenario spread.
-Even under the most optimistic assumptions modelled, the stock offers limited margin of safety at current market prices.
-
----
-
-## Tools Used
-
-- Microsoft Excel
-- Financial modeling best practices
-- DCF valuation methodology
-
----
-
-## Disclaimer
-
-This project was created for educational and portfolio purposes.  
-The analysis should not be interpreted as investment advice.
+## ⚠️ Disclaimer
+*This financial model is for educational and demonstrative purposes only. It does not constitute professional investment advice. The creator is not responsible for any financial losses or decisions made based on this analysis. Always do your own research (DYOR).*
